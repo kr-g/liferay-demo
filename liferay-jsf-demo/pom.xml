@@ -46,7 +46,7 @@
 		</plugins>
 	</build>
 	<dependencies>
-	
+
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
@@ -57,20 +57,12 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.2</version>
 		</dependency>
-		
-		<!-- 
-		<dependency>
-			<groupId>com.liferay.faces</groupId>
-			<artifactId>liferay-faces-bridge-impl</artifactId>
-			<version>3.2.4-ga5</version>
-		</dependency>
-		<dependency>
-			<groupId>com.liferay.faces</groupId>
-			<artifactId>liferay-faces-portal</artifactId>
-			<version>3.2.4-ga5</version>
-		</dependency>
-		 -->
-		
+
+		<!-- <dependency> <groupId>com.liferay.faces</groupId> <artifactId>liferay-faces-bridge-impl</artifactId> 
+			<version>3.2.4-ga5</version> </dependency> <dependency> <groupId>com.liferay.faces</groupId> 
+			<artifactId>liferay-faces-portal</artifactId> <version>3.2.4-ga5</version> 
+			</dependency> -->
+
 		<dependency>
 			<groupId>com.liferay.faces</groupId>
 			<artifactId>com.liferay.faces.bridge.api</artifactId>
@@ -81,7 +73,18 @@
 			<artifactId>com.liferay.faces.bridge.impl</artifactId>
 			<version>4.0.0</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>com.liferay.faces</groupId>
+			<artifactId>com.liferay.faces.bridge.ext</artifactId>
+			<version>5.0.0</version>
+		</dependency>		
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>6.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.liferay.portal</groupId>
 			<artifactId>portal-service</artifactId>
@@ -94,7 +97,7 @@
 			<version>${liferay.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -105,7 +108,7 @@
 			<artifactId>jsf-impl</artifactId>
 			<version>2.2.13</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.el</groupId>
 			<artifactId>el-api</artifactId>
@@ -118,7 +121,7 @@
 			<version>2.0</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.jboss.seam</groupId>
 			<artifactId>jboss-el</artifactId>
@@ -130,7 +133,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 	</dependencies>
 	<repositories>
 		<repository>
@@ -149,5 +152,5 @@
 		<liferay.version>7.0.0-nightly</liferay.version>
 		<liferay.maven.plugin.version>7.0.0-m1</liferay.maven.plugin.version>
 	</properties>
-	
+
 </project>
